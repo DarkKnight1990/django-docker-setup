@@ -1,0 +1,30 @@
+DEBUG=1
+SECRET_KEY=foo
+DJANGO_ALLOWED_HOSTS=localhost 127.0.0.1 [::1]
+SQL_ENGINE=django.db.backends.postgresql
+SQL_DATABASE=learn_django_dev
+SQL_USER=learn_django
+SQL_PASSWORD=learn_django
+SQL_HOST=db
+SQL_PORT=5432
+DATABASE=postgres
+
+
+
+DEBUG=0
+SECRET_KEY=dfhgh5745h567$%756GHkjgj78bhk
+DJANGO_ALLOWED_HOSTS=localhost 127.0.0.1 [::1]
+SQL_ENGINE=django.db.backends.postgresql
+SQL_DATABASE=learn_django_prod
+SQL_USER=learn_django
+SQL_PASSWORD=learn_django
+SQL_HOST=db
+SQL_PORT=5432
+DATABASE=postgres
+
+env_prod_db:
+
+POSTGRES_USER=learn_django
+POSTGRES_PASSWORD=learn_django
+POSTGRES_DB=learn_django_prod
+
